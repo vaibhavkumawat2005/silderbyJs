@@ -26,6 +26,7 @@ function stopsSlider() {
   clearInterval(slideInterval);
 }
 
+
 document.querySelector(".prev").addEventListener("click", () => {
   prevSlide();
   stopsSlider();
@@ -43,7 +44,7 @@ const colseModelBtn = document.getElementById("btnclose");
 
 setTimeout(() => {
   model.style.display = "flex";
-}, 5000);
+}, 3000);
 
 colseModelBtn.addEventListener("click", () => {
   model.style.display = "none";

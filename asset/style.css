@@ -178,6 +178,7 @@
   }
 
 .body{
+  margin-top: 5px;
     display: flex;
     min-height: 70vh;
     background-image: url("https://c4.wallpaperflare.com/wallpaper/128/887/619/spider-man-marvel-comics-comics-spider-wallpaper-preview.jpg");
